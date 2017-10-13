@@ -32,7 +32,7 @@ class pSize extends Command{
         parent::__construct("size", "PlayerSize by emanuele0204");
     }
     
-    public function execute(CommandSender $g, $label, array $args){
+    public function execute(CommandSender $g, string $label, array $args): bool {
         if($g->hasPermission("playersize.size")){
             if(isset($args[0])){
                 if(is_numeric($args[0])){
@@ -53,6 +53,7 @@ class pSize extends Command{
                }
             }
          }
+            return true;
       }
    }
 }
