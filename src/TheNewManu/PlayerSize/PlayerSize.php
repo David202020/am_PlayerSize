@@ -1,6 +1,6 @@
 <?php
 
-namespace emanuele0204\PlayerSize;
+namespace TheNewManu\PlayerSize;
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\command\{Command, CommandSender};
