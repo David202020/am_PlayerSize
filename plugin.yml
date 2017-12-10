@@ -2,7 +2,7 @@ name: am_PlayerSize
 author: TheNewManu
 api: ["3.0.0APLHA7", "3.0.0-ALPHA8", "3.0.0-ALPHA9"]
 main: TheNewManu\PlayerSize\PlayerSize
-
+version: 1.0
 permissions:
  playersize:
   children:
